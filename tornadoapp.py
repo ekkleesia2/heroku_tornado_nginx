@@ -7,7 +7,7 @@
 #
 #   $ gunicorn -k tornado tornadoapp:app
 #
-from tornado import tornado,web
+from tornado import web
 
 class IndexHandler(web.RequestHandler):
     def get(self):
